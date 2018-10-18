@@ -1,0 +1,39 @@
+section.quotes-fluid{
+
+    
+    div.quotes{
+
+        height: 20rem;
+        display: flex;
+        background-color: yellow;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border: 2rem;
+        align-items: flex-start;
+     
+
+        div.kolo{
+
+            height:4rem;
+            width:4rem;
+            background-color: red;
+            border-radius: 50%;
+            
+            
+
+        }
+        
+        >article{
+            
+            width:45rem;
+            padding: none;
+
+        }
+
+    }
+}
+
+
+
+

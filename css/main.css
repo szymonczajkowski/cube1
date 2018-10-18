@@ -1,0 +1,158 @@
+html {
+  font-size: 10px;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+section.navbar-fluid {
+  top: 0;
+  position: fixed;
+  background-color: white;
+  -webkit-box-shadow: 0px -5px 30px 1px #323232;
+          box-shadow: 0px -5px 30px 1px #323232;
+}
+
+section.navbar-fluid div.navbar {
+  height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.header-top-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6rem;
+  height: calc(100vh - 6rem);
+  background-image: -webkit-gradient(linear, left top, right top, from(#3dcdbc), color-stop(#2ac3c0), color-stop(#20b8c2), color-stop(#26acc1), to(#33a1bd));
+  background-image: linear-gradient(to right, #3dcdbc, #2ac3c0, #20b8c2, #26acc1, #33a1bd);
+}
+
+header.header-top-fluid .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header.header-top-fluid .container div:nth-child(2) {
+  padding-left: 4rem;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+header.header-top-fluid .container div:nth-child(2) h2 {
+  margin: 0 0 2rem 0;
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+header.header-top-fluid .container div:nth-child(2) p {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+div.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div.info > article {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 30%;
+  -webkit-box-shadow: 7px 6px 51px -6px rgba(0, 0, 0, 0.75);
+          box-shadow: 7px 6px 51px -6px rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+}
+
+div.button > a {
+  display: inline-block;
+  width: 36rem;
+  height: 10rem;
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+}
+
+div.button > a > span {
+  line-height: 10rem;
+  text-align: center;
+  display: block;
+  font-size: 3rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+div.button > a:hover span {
+  -webkit-transform: translateY(-10rem);
+          transform: translateY(-10rem);
+}
+
+section.quotes-fluid div.quotes {
+  height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: yellow;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+section.quotes-fluid div.quotes div.kolo {
+  height: 4rem;
+  width: 4rem;
+  background-color: red;
+  border-radius: 50%;
+}
+
+section.quotes-fluid div.quotes > article {
+  width: 45rem;
+  padding: none;
+}
+/*# sourceMappingURL=main.css.map */
